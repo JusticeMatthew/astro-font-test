@@ -8,7 +8,7 @@ export default defineConfig({
       {
         provider: "local",
         name: "Calistoga",
-        cssVariable: "--astro-calistoga",
+        cssVariable: "--font-calistoga",
         variants: [
           {
             weight: 400,

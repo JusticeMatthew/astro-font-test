@@ -9,7 +9,7 @@ import { Font } from "astro:assets";
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>Astro Basics</title>
-    <Font cssVariable="--astro-calistoga" preload />
+    <Font cssVariable="--font-calistoga" preload />
   </head>
   <body>
     <slot />
@@ -19,7 +19,7 @@ import { Font } from "astro:assets";
 <style>
   html,
   body {
-    font-family: var(--astro-calistoga);
+    font-family: var(--font-calistoga);
     font-size: 3rem;
     color: black;
     margin: 0;
