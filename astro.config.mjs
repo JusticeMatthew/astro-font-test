@@ -17,20 +17,7 @@ export default defineConfig({
             src: ["./src/assets/fonts/Calistoga.woff2"],
           },
         ],
-      },
-      {
-        provider: "local",
-        name: "Inter",
-        cssVariable: "--astro-inter",
-        variants: [
-          {
-            weight: "400 900",
-            style: "normal",
-            display: "swap",
-            src: ["./src/assets/fonts/Inter.woff2"],
-          },
-        ],
-      },
+      }
     ],
   },
 });
